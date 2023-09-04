@@ -1,0 +1,29 @@
+.container-bigCard {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.bigCard-title > h1 {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.bigCard-description {
+  margin-top: 5px;
+}
+
+.bigCard-description > p > a {
+  color: grey;
+}
+
+.bigCard-photo > img {
+  width: 100%;
+  min-width: 400px;
+}
